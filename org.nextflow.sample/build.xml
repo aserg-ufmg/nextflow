@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     20/04/2013 11:34:40                                                        
+
+     org.nextflow.sample    
+                   
+     rogel                                                                
+     ====================================================================== -->
+<project name="org.nextflow.sample" default="build-jar">
+	<property name="version" value="0.1b"/>
+	
+    <description>
+    </description>
+
+    <!-- ================================= 
+          target: build-jar              
+         ================================= -->
+    <target name="build-jar">
+		<jar destfile="${ant.project.name}-${version}.jar" >
+			<fileset dir="bin">
+			    <include name="**/*"/>
+			</fileset>
+		</jar>
+    	<zip destfile="${ant.project.name}-${version}-sources.zip">
+			<fileset dir="src">
+			    <include name="**/*"/>
+			</fileset>
+			<fileset dir="resources">
+			    <include name="**/*"/>
+			</fileset>
+    	</zip>
+    </target>
+
+</project>

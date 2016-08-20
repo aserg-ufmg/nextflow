@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     20/04/2013 11:34:40                                                        
+
+     org.nextflow.jbpm    
+     jBPM Driver
+                   
+     rogel                                                                
+     ====================================================================== -->
+<project name="org.nextflow.jbpm" default="build-jar">
+	<property name="version" value="0.1b"/>
+	
+    <description>
+            jBPM Driver
+    </description>
+
+    <!-- ================================= 
+          target: build-jar              
+         ================================= -->
+    <target name="build-jar" description="jBPM Driver">
+		<jar destfile="${ant.project.name}-${version}.jar" >
+			<fileset dir="bin">
+			    <include name="**/*"/>
+			</fileset>
+		</jar>
+    	<zip destfile="${ant.project.name}-${version}-sources.zip">
+			<fileset dir="src">
+			    <include name="**/*"/>
+			</fileset>
+			<fileset dir="resource">
+			    <include name="**/*"/>
+			</fileset>
+    	</zip>
+    </target>
+
+</project>

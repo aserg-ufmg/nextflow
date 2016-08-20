@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.nextflow.wfc"/>
+	<classpathentry exported="true" kind="lib" path="jbpm-lib/jbpm-bam-5.3.0.Final.jar" sourcepath="lib-src/droolsjbpm-jbpm-5.3.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="jbpm-lib/jbpm-bpmn2-5.3.0.Final.jar" sourcepath="lib-src/droolsjbpm-jbpm-5.3.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="jbpm-lib/jbpm-flow-5.3.0.Final.jar" sourcepath="lib-src/droolsjbpm-jbpm-5.3.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="jbpm-lib/jbpm-flow-builder-5.3.0.Final.jar" sourcepath="lib-src/droolsjbpm-jbpm-5.3.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="jbpm-lib/jbpm-human-task-core-5.3.0.Final.jar" sourcepath="lib-src/droolsjbpm-jbpm-5.3.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="jbpm-lib/jbpm-human-task-hornetq-5.3.0.Final.jar" sourcepath="lib-src/droolsjbpm-jbpm-5.3.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="jbpm-lib/jbpm-human-task-jms-5.3.0.Final.jar" sourcepath="lib-src/droolsjbpm-jbpm-5.3.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="jbpm-lib/jbpm-human-task-mina-5.3.0.Final.jar" sourcepath="lib-src/droolsjbpm-jbpm-5.3.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="jbpm-lib/jbpm-persistence-jpa-5.3.0.Final.jar" sourcepath="lib-src/droolsjbpm-jbpm-5.3.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="jbpm-lib/jbpm-test-5.3.0.Final.jar" sourcepath="lib-src/droolsjbpm-jbpm-5.3.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="jbpm-lib/jbpm-workitems-5.3.0.Final.jar" sourcepath="lib-src/droolsjbpm-jbpm-5.3.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="drools-lib/drools-compiler-5.4.0.Final.jar" sourcepath="lib-src/droolsjbpm-drools-5.4.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="drools-lib/drools-core-5.4.0.Final.jar" sourcepath="lib-src/droolsjbpm-drools-5.4.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="drools-lib/drools-persistence-jpa-5.4.0.Final.jar" sourcepath="lib-src/droolsjbpm-drools-5.4.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="drools-lib/knowledge-api-5.4.0.Final.jar" sourcepath="lib-src/droolsjbpm-droolsjbpm-knowledge-5.4.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="drools-lib/knowledge-internal-api-5.4.0.Final.jar" sourcepath="lib-src/droolsjbpm-droolsjbpm-knowledge-5.4.0.Final-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="lib-3rd/mvel2-2.1.0.drools16.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib-3rd/ecj-3.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib-3rd/antlr-3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib-3rd/antlr-runtime-3.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
